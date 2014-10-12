@@ -99,7 +99,7 @@ def send_email(report):
 
   content = headers + "\r\n\r\n" + report
   content += '<p>Go here for more: <a href="https://reserve.cdn-apple.com/GB/en_GB/reserve/iPhone/availability</p>'
-  session.sendmail("richardgaywood@gmail.com", "rich@fscked.co.uk", content)
+  session.sendmail(smtp_from_address, smtp_to_address, content)
 
 
 email_count = 0
