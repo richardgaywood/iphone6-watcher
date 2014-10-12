@@ -5,6 +5,11 @@ So, you want an iPhone 6 or 6 Plus, you don't want to wait 7-10 days for deliver
 
 I can help. In this repo you'll find a robust script to watch for availability of a given iPhone 6 or 6 Plus model in the UK, alerting you the very moment when the model you want is in stock.
 
+Acknowledgements
+================
+
+This script was based on [this one by Andy Berry](https://gist.github.com/andyberry88/6728fa0c631b1ec5e84f) and [this one by Nik Fletcher](https://gist.github.com/nikf/e78c50c121d858522de5).
+
 How to use this script to get an iPhone 6
 =========================================
 
@@ -12,7 +17,7 @@ How to use this script to get an iPhone 6
 1. The script should run as-is on a Mac, without you needing to install anything else. On other platforms you'll need a Python runtime.
 1. Configure the variables at the start of the script for the codes for the Apple Stores you can travel to and the iPhone model number you want. 
 1. Optionally, configure the script to email you (see below.)
-1. ./apple-watch.py 
+1. In a Terminal session, run ./watch.py 
 1. Watch the output until your chosen model comes into stock
 1. Reserve, go to Apple Store, enjoy your new phone!
   

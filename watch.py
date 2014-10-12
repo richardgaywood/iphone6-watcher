@@ -3,7 +3,7 @@
 # Python script to watch for iPhone 6 availability.
 
 # Based on https://gist.github.com/andyberry88/6728fa0c631b1ec5e84f by Andy Berry
-# and https://gist.github.com/nikf/e78c50c121d858522de5 by Nik Flectcher
+# and https://gist.github.com/nikf/e78c50c121d858522de5 by Nik Fletcher
 
 from __future__ import division
 import json, urllib2, time, smtplib, sys, datetime, time
